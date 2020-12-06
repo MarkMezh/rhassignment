@@ -14,6 +14,7 @@ def get_url():
     host = o.hostname
     return host
 
+
 if __name__ == '__main__':
-    app.run()
+    app.run(port=5000)
 
