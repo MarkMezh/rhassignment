@@ -6,8 +6,7 @@ from urllib.parse import urlparse
 
 @app.route('/')
 def hello():
-    return "Hi Eva <3 <3 <3" \
-           "(you are gay)"
+    return "this is my first project"
 
 
 def get_url():
