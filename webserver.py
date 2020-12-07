@@ -4,11 +4,12 @@ app = Flask(__name__)
 from urllib.parse import urlparse
 
 
+#@app.route('/')
+#def hello():
+    #return "this is my first project"
+
+
 @app.route('/')
-def hello():
-    return "this is my first project"
-
-
 def get_url():
     o = urlparse(request.base_url)
     host = o.hostname
